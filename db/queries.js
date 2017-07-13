@@ -8,10 +8,10 @@ const options = {
 const pgp = require('pg-promise')(options);
 
 const db = pgp({
-  user: 'aws',
-  database: 'myAWS',
-  password: 'mytutorial123',
-  host: 'awstutorial.ctwfwbqhfx8u.us-west-1.rds.amazonaws.com',
+  user: 'postgres',
+  database: 'postgresSchema',
+  password: '12345678',
+  host: 'postgresql.c50istdei48j.ap-south-1.rds.amazonaws.com',
   port: 5432,
 });
 
